@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "parcel src/index.html && parcel src/index.html --open",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "watch": "tailwindcss -i ./src/index.css -o ./dist/output.css --watch"
   },
   "keywords": [
     "tailwind",
